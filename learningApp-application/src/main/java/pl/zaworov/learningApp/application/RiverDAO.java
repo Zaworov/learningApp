@@ -4,7 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import pl.zaworov.learningApp.domain.River;
+import org.springframework.stereotype.Repository;
 
+@Repository
 public class RiverDAO {
 
 	List<River> rivers = new ArrayList<River>();

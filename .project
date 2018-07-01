@@ -3,6 +3,7 @@
 	<name>learningApp</name>
 	<comment></comment>
 	<projects>
+		<project>learningApp-webapp</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
