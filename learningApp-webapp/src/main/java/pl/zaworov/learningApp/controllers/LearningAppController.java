@@ -18,16 +18,25 @@ public class LearningAppController {
 	public String returnMain() {
 		return "main";
 	}
-	
+
 	@RequestMapping("/add-river")
 	public String addRiver(Model model) {
 		return "addRiver";
 	}
+
+	// @RequestMapping("/list")
+	// public void showRivers() {
+	// // show rivers
+	// }
 	@RequestMapping("/list")
-	public void showRivers() {
+	public String showRivers() {
+		return "showRivers";
 		// show rivers
 	}
-	
-	
-	
+
+	@RequestMapping("/model")
+	public String modelExample(Model model) {
+		model.addAttribute("message", "Information passed to main.jsp by method modelExample()");
+		return "main";
+	}
 }
