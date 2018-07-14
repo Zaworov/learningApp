@@ -4,7 +4,6 @@ import java.text.SimpleDateFormat;
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
-//import pl.kobietydokodu.koty.domain.Kot;
 import pl.zaworov.learningApp.domain.River;
 
 public class Interface {
