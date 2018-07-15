@@ -28,9 +28,9 @@ public class LearningAppController {
 		return "showRivers";
 	}
 
-	@RequestMapping("/river/{id}")
+	@RequestMapping("/river-{id}")
 	public String showRiverDetails(@PathVariable("id") Integer id, Model model) {
 		model.addAttribute("river", riverDAO.getRiverById(id));
-		return "details";
+		return "river";
 	}
 }

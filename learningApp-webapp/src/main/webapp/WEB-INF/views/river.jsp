@@ -7,7 +7,7 @@
 <title>Details of the river</title>
 </head>
 <body>
-	<a href="lista">Return to river list</a>
+	<a href="list">Return to river list</a>
 	<br />
 	<table border="1">
 		<tbody>
