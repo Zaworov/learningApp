@@ -19,5 +19,13 @@ public class RiverDAO {
 		return rivers;
 	}
 	
+	public River getRiverById(int id) {
+		if (id < rivers.size()) {
+			return rivers.get(id);
+		} else {
+			return null;
+		}
+	}
+	
 }
 
