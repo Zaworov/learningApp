@@ -26,7 +26,6 @@ public class LearningAppController {
 	@RequestMapping("/list")
 	public String showRivers() {
 		return "showRivers";
-		// show rivers
 	}
 
 	@RequestMapping("/river/{id}")

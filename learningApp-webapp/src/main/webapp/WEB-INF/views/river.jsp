@@ -4,26 +4,24 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>List of rivers</title>
+<title>Details of the river</title>
 </head>
 <body>
-	<a href="add">Add new river</a>
+	<a href="lista">Return to river list</a>
 	<br />
 	<table border="1">
-		<thead>
-			<tr>
-				<th>#</th>
-				<th>River name</th>
-			</tr>
-		</thead>
 		<tbody>
 			<tr>
-				<td>0</td>
-				<td><a href="river-0">Brda</a></td>
+				<th>Name</th>
+				<td>Brda</td>
 			</tr>
 			<tr>
-				<td>1</td>
-				<td><a href="river-1">Wda</a></td>
+				<th>Length</th>
+				<td>245</td>
+			</tr>
+			<tr>
+				<th>Location</th>
+				<td>Bydgoszcz</td>
 			</tr>
 		</tbody>
 	</table>
