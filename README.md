@@ -15,10 +15,10 @@ The purpose of this app is to manage simple data base of Polish rivers eligable 
 However the main intention of this project is to learn (as the title indicates), to master new skills and technologies, ground and broaden my current knowledge.
 
 ## Future plans / to-do
- -[] route planner
- -[] interactive map
- -[] features for renting companies
- -[] mobile version of the app
+ - [ ] route planner
+ - [ ] interactive map
+ - [ ] features for renting companies
+ - [ ] mobile version of the app
 
 ## Technologies
 * Java 1.8
