@@ -1,1 +1,3 @@
 pl\zaworov\learningApp\controllers\LearningAppController.class
+pl\zaworov\learningApp\dto\RiverFormDTO.class
+pl\zaworov\learningApp\dto\UserFormDTO.class
