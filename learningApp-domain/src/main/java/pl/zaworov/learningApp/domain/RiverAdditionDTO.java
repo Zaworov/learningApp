@@ -15,5 +15,27 @@ public class RiverAdditionDTO {
 	@Size(min=100) 
 	private Integer length; 
 	
-//	//gettery i settery
+	public String getName() {
+		return name;
+	}
+	
+	public String getLocation() {
+		return location;
+	}
+	
+	public Integer getLength() {
+		return length;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public void setLocation(String location) {
+		this.name = location;
+	}
+	
+	public void setLength(Integer length) {
+		this.length = length;
+	}
 }
